@@ -76,8 +76,6 @@ export function NewsHero() {
       <section className="bg-gray-50 py-8 border-b">
         <div className="container mx-auto px-4">
           <div className="text-center py-16">
-            <h1 className="text-4xl font-bold text-black mb-4">أهلاً بكم في الشرق الأوسط</h1>
-            <p className="text-xl text-gray-600">آخر الأخبار والتطورات من المنطقة والعالم</p>
           </div>
         </div>
       </section>
