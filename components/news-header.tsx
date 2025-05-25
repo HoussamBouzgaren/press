@@ -112,9 +112,6 @@ export function NewsHeader() {
       <header className="bg-white border-b-2 border-black">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
-            <Link href="/" className="text-4xl font-bold text-black">
-              الشرق الأوسط
-            </Link>
 
             <nav className="hidden lg:flex items-center space-x-8 space-x-reverse">
               <Link
