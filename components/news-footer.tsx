@@ -7,26 +7,8 @@ export function NewsFooter() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-3xl font-bold mb-4">الشرق الأوسط</h3>
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              صحيفة عربية دولية تهتم بآخر الأخبار السياسية والاقتصادية والثقافية والرياضية من المنطقة والعالم. نسعى
-              لتقديم تغطية شاملة ومتوازنة للأحداث الجارية.
-            </p>
             <div className="flex space-x-4 space-x-reverse">
-              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                فيسبوك
-              </Link>
-              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                تويتر
-              </Link>
-              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                إنستغرام
-              </Link>
-              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-                يوتيوب
-              </Link>
-            </div>
-          </div>
+
 
           <div>
             <h4 className="font-bold mb-4 text-lg">الأقسام</h4>
@@ -99,7 +81,7 @@ export function NewsFooter() {
         <Separator className="my-8 bg-gray-700" />
 
         <div className="flex flex-col md:flex-row items-center justify-between text-gray-400 text-sm">
-          <p>&copy; 2024 الشرق الأوسط. جميع الحقوق محفوظة.</p>
+       
           <div className="flex space-x-6 space-x-reverse mt-4 md:mt-0">
             <Link href="/privacy" className="hover:text-white transition-colors">
               الخصوصية
