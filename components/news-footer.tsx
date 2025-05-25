@@ -82,17 +82,6 @@ export function NewsFooter() {
 
         <div className="flex flex-col md:flex-row items-center justify-between text-gray-400 text-sm">
        
-          <div className="flex space-x-6 space-x-reverse mt-4 md:mt-0">
-            <Link href="/privacy" className="hover:text-white transition-colors">
-              الخصوصية
-            </Link>
-            <Link href="/terms" className="hover:text-white transition-colors">
-              الشروط
-            </Link>
-            <Link href="/sitemap" className="hover:text-white transition-colors">
-              خريطة الموقع
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
